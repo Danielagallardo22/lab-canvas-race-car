@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/style.css" />
     <title>Race Car</title>
   </head>
+  
   <body>
     <div class="game-intro">
       <img src="./images/logo.png" alt="" class="logo-img" />
@@ -16,7 +17,12 @@
       <img src="./images/arrows.png" alt="" class="arrows-img" />
     </div>
 
+    <div  class="loser" style="visibility: hidden">
+      GAME OVER!
+    </div>
+
     <div id="game-board">
+      <h2>Score: <span class="score">0</span></h2>
       <canvas id="canvas" width="500" height="700"></canvas>
     </div>
 
